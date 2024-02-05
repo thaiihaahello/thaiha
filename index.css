@@ -1,15 +1,19 @@
-.row1{ 
+.row1 {
     margin-top: 5%;
-    margin-left: 15% ;
+    margin-left: 15%;
     display: grid;
     grid-template-columns: 15% 37% 7% 7% 7% 7%;
 }
+.row1 .a{
+margin-top: 20%;
+}
 .row2 img {
-    margin-left: 15% ;
+    margin-left: 15%;
     margin-right: 10%;
 }
+
 .row2 .text {
-    position :absolute;
+    position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -19,17 +23,38 @@
     text-align: center;
     line-height: 1.0em;
 }
+
 .row3 {
-    margin-left: 15% ;
+    margin-left: 15%;
     margin-right: 10%;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.0em;
 }
-.thaiha {
-    margin-left: 15% ;
-    margin-right: 10%;
-}
-.thaiha .row{
 
+.thaiha {
+    margin-left: 15%;
+    margin-right: 10%;
+    display: grid;
+    width: 30%;
+    grid-template-columns: repeat(2,1fr) 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    
 }
+.thaiha img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.line {
+    margin-left: 15%;
+    margin-right: 10%;
+    border-bottom: 1px solid #000;
+    display:block ;
+    width: 63%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
