@@ -4,8 +4,13 @@
     margin-right: 10%;
     display: grid;
     grid-template-columns: 15% 54% 7% 7% 7% 10%;
+    text-decoration: none; 
+    
 }
 
+.row1 .text1{
+    margin: auto;
+}
 .row2 img {
     margin-left: 15%;
     margin-right: 10%;
