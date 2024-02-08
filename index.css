@@ -2,12 +2,13 @@
     margin-top: 5%;
     margin-left: 15%;
     display: grid;
-    grid-template-columns: 15% 45% 7% 7% 7% 7%;
+    grid-template-columns: 15% 40% 7% 7% 7% 7%;
 }
 
 .row2 img {
     margin-left: 15%;
     margin-right: 10%;
+    width: 70%;
 }
 
 .row2 .text {
@@ -21,7 +22,6 @@
     text-align: center;
     line-height: 1.0em;
 }
-
 .row3 {
     margin-left: 15%;
     margin-right: 10%;
@@ -30,12 +30,12 @@
     line-height: 1.0em;
 }
 
-.thaiha {
+/* .thaiha {
     margin-left: 15%;
     margin-right: 10%;
     display: grid;
     width: 30%;
-    grid-template-columns: repeat(2,1fr) 1fr;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: repeat(2, auto);
     gap: 2%;
     
@@ -43,13 +43,29 @@
 .thaiha img {
     border-radius: 10px;
     overflow: hidden;
+    width: 104%;
+    margin-right: 10%;
+} */
+.thaiiha {
+    margin-left: 15%;
+    margin-right: 10%;
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 33.33% 33.33%  33.33%;
 }
+.thaiiha img {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 95%;
+    margin-top: 5%;
+}
+
 .line {
     margin-left: 15%;
     margin-right: 10%;
     border-bottom: 1px solid #000;
     display:block ;
-    width: 70%;
+    width: 68%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
