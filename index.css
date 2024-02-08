@@ -19,14 +19,14 @@
 
 .row2 .text {
     position: absolute;
-    top: 30%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: aliceblue;
     font-size: 120%;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    line-height: 1.0em;
+    line-height: 0.8em;
 }
 
 .row3 {
